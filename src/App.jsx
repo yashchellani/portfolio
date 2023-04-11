@@ -16,7 +16,9 @@ const App = () => {
           <About />
           <Experience />
           <Tech />
-          <StarsCanvas className="sm:hidden" />
+          <div class="visible sm:invisible">
+          <StarsCanvas />
+          </div>
 
           {/* </div> */}
           
