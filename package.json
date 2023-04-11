@@ -1,12 +1,16 @@
 {
+  "homepage": "http://yashchellani@github.io/portfolio/src",
   "name": "code",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "preview": "vite preview",
-    "start": "npm i -g vite; npm run dev"
+    "predeploy": "npm run build",
+    "start": "vite start",
+    "deploy": "gh-pages -d dist",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -18,6 +22,7 @@
     "react-dom": "^18.2.0",
     "react-parallax-tilt": "^1.7.127",
     "react-router-dom": "^6.10.0",
+    "react-scripts": "^5.0.1",
     "react-text-loop": "^2.3.0",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
