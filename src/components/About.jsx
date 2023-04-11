@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-7xl leading-[30px]'
       >
-       I'm at Computer Science undergrad at the School of Computing and Information Systems at SMU. 
+       I'm a Computer Science undergrad at the School of Computing and Information Systems at SMU. 
        As a budding SWE, I am passionate about tackling complex problems 
        and delivering innovative solutions. I thrive when working with uncertainty and pushing boundaries to deliver effective results. 
        With a keen eye for detail and a drive for excellence, I am constantly seeking out opportunities to create impact - be it for optimizing system performance, building scalable architectures, or solving intricate algorithmic problems
