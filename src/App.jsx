@@ -16,7 +16,7 @@ const App = () => {
           <About />
           <Experience />
           <Tech />
-          <div class="invisible lg:visible">
+          <div class="hidden md:block">
           <StarsCanvas />
           </div>
 
@@ -24,7 +24,7 @@ const App = () => {
           
           <Works />
           {/* <div className="relative z-0"> */}
-          <div class="invisible lg:visible">
+          <div class="hidden md:block">
             <Contact />
           </div>
             {/* <StarsCanvas /> */}
