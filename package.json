@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "preinstall": "npm install vite",
     "preview": "vite preview",
     "start": "npm run dev"
   },
