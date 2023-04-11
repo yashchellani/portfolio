@@ -15,7 +15,10 @@ const App = () => {
           
           <About />
           <Experience />
+          <div class="hidden md:block">
           <Tech />
+          </div>
+
           <div class="hidden md:block">
           <StarsCanvas />
           </div>
