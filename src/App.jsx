@@ -19,9 +19,9 @@ const App = () => {
           <Tech />
           </div>
 
-          {/* <div class="hidden md:block"> */}
+          <div class="hidden md:block">
           <StarsCanvas />
-          {/* </div> */}
+          </div>
 
           {/* </div> */}
           
