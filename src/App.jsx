@@ -16,11 +16,11 @@ const App = () => {
           <About />
           <Experience />
           <div class="hidden md:block">
-          <Tech />
+            <Tech />
           </div>
 
           <div class="hidden md:block">
-          <StarsCanvas />
+            <StarsCanvas />
           </div>
 
           {/* </div> */}
