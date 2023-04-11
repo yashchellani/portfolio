@@ -80,7 +80,7 @@ const ComputersCanvas = () => {
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
-          autoRotate={isMobile ? false : true}
+          autoRotate={isMobile ? true : true}
           rotateSpeed={1}
         />
         <Computers isMobile={isMobile} />
