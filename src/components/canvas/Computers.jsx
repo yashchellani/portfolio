@@ -6,8 +6,8 @@ import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
-  const computer2 = useGLTF("./desktop_pc_ref/scene.gltf");
-  const computer3 = useGLTF("./wall_pc/scene.gltf");
+  //const computer2 = useGLTF("./desktop_pc_ref/scene.gltf");
+  //const computer3 = useGLTF("./wall_pc/scene.gltf");
 
   return (
     <mesh>
@@ -23,9 +23,9 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
        <primitive
         object={computer.scene}
-        scale={isMobile ? 0.2 : 0.25}
-        position={isMobile ? [0, -3, -2.2] : [-1, -3.25, -1.0]}
-        rotation={[-0.01, -6, -0.01]}
+        scale={isMobile ? 0.7 : 0.75}
+        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        rotation={[-0.01, -1, -0.1]}
       />
       {/* <primitive
         object={computer2.scene}
@@ -81,7 +81,7 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
           autoRotate={true}
-          rotateSpeed={0.1}
+          rotateSpeed={1}
         />
         <Computers isMobile={isMobile} />
       </Suspense>
