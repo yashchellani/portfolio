@@ -1,11 +1,11 @@
 Model Information:
-* title:	"Killer Beats" Casette Mixstation
-* source:	https://sketchfab.com/3d-models/killer-beats-casette-mixstation-1cc1eda430c74e3ea8f39284b2fb01d8
-* author:	Mikkel Garde Blaase (https://sketchfab.com/plorigon)
+* title:	Gaming Desktop PC
+* source:	https://sketchfab.com/3d-models/gaming-desktop-pc-d1d8282c9916438091f11aeb28787b66
+* author:	Yolala1232 (https://sketchfab.com/Yolala1232)
 
 Model License:
-* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
-* requirements:	Author must be credited. No commercial use.
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on ""Killer Beats" Casette Mixstation" (https://sketchfab.com/3d-models/killer-beats-casette-mixstation-1cc1eda430c74e3ea8f39284b2fb01d8) by Mikkel Garde Blaase (https://sketchfab.com/plorigon) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+This work is based on "Gaming Desktop PC" (https://sketchfab.com/3d-models/gaming-desktop-pc-d1d8282c9916438091f11aeb28787b66) by Yolala1232 (https://sketchfab.com/Yolala1232) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
