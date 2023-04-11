@@ -5,9 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "preinstall": "npm install vite",
     "preview": "vite preview",
-    "start": "npm run dev"
+    "start": "npm install vite; npm run dev"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
