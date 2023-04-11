@@ -10,16 +10,21 @@ const App = () => {
             <Navbar />
             <Hero />
           </div>
+
+          {/* <div className="relative z-0"> */}
           
           <About />
           <Experience />
           <Tech />
+          <StarsCanvas />
+
+          {/* </div> */}
           
           <Works />
-          <div className="relative z-0">
+          {/* <div className="relative z-0"> */}
             <Contact />
-            <StarsCanvas />
-          </div>
+            {/* <StarsCanvas /> */}
+          {/* </div> */}
         </div>
       </BrowserRouter>
     )
