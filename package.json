@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
-    "start": "npm install vite; npm run dev"
+    "start": "npm i -g vite; npm run dev"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
