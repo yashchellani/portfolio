@@ -39,19 +39,28 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+      <div>
+          <h1 className={`${styles.heroHeadText} text-white`}>
+            Hi, I'm <span className='text-[#915EFF]'>Yash</span>
+          </h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            A Software Engineer with a keen interest in <br className='sm:block hidden' />
+            full-stack development, distributed computing and AI.
+          </p>
+        </div>
+        {/* <p className={styles.sectionSubText}>Introduction</p> */}
+        {/* <br />
+        <h2 className={styles.sectionSubText}>Overview.</h2> */}
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-7xl leading-[30px]'
       >
-       I'm a Computer Science undergrad at the School of Computing and Information Systems at SMU. 
-       As a budding SWE, I am passionate about tackling complex problems 
-       and delivering innovative solutions. I thrive when working with uncertainty and pushing boundaries to deliver effective results. 
-       With a keen eye for detail and a drive for excellence, I am constantly seeking out opportunities to create impact - be it for optimizing system performance, building scalable architectures, or solving intricate algorithmic problems
-       
+       As a recent graduate in Computer Science from Singapore Management University (SMU), specializing in AI and Cybersecurity, I am deeply committed to leveraging technology to solve complex problems and create innovative solutions. 
+       Passionate about pushing the boundaries of what's possible, I thrive on challenges that demand creative thinking and technical expertise. 
+       With a strong academic background and hands-on experience in software development, data analytics, and infrastructure engineering, 
+       I am dedicated to making a meaningful impact through my work.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

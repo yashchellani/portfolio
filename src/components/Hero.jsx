@@ -20,15 +20,15 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             A budding Software Engineer with a keen interest in <br className='sm:block hidden' />
-            full-stack development and distributed computing
+            full-stack development, distributed computing and AI.
           </p>
         </div>
       </div>
 
-        <ComputersCanvas class="hidden md:block" />
+        {/* <ComputersCanvas class="hidden md:block" /> */}
 
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      {/* <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
@@ -44,7 +44,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };

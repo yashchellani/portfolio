@@ -26,6 +26,7 @@ import java from "./tech/java.png";
 import python from "./tech/python.png";
 import sql from "./tech/sql.png";
 import django from "./tech/django.png";
+import palantir from "./company/palantir.png";
 
 
 import meta from "./company/meta.png";
@@ -79,5 +80,6 @@ export {
   cpp,
   cs,
   sql,
-  django
+  django,
+  palantir,
 };

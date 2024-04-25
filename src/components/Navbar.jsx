@@ -25,6 +25,11 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const handleNavLinkClick = (navId) => {
+    setActive(navId);
+    setToggle(false);
+  };
+
   return (
     <nav
       className={`${
@@ -54,11 +59,11 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-secondary"
+                active === nav.id ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+              onClick={() => handleNavLinkClick(nav.id)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a href={nav.id === "linkedin" ? "https://www.linkedin.com/in/chellani-yash/" : nav.id === "github" ? "https://github.com/yashchellani" : `#${nav.id}`} target={nav.id === "linkedin" || nav.id === "github" ? "_blank" : ""} rel={nav.id === "linkedin" || nav.id === "github" ? "noopener noreferrer" : ""}>{nav.title}</a>
             </li>
           ))}
         </ul>
@@ -81,14 +86,11 @@ const Navbar = () => {
                 <li
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
+                    active === nav.id ? "text-white" : "text-secondary"
                   }`}
-                  onClick={() => {
-                    setToggle(!toggle);
-                    setActive(nav.title);
-                  }}
+                  onClick={() => handleNavLinkClick(nav.id)}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <a href={nav.id === "linkedin" ? "https://www.linkedin.com/in/chellani-yash/" : nav.id === "github" ? "https://github.com/yashchellani" : `#${nav.id}`} target={nav.id === "linkedin" || nav.id === "github" ? "_blank" : ""} rel={nav.id === "linkedin" || nav.id === "github" ? "noopener noreferrer" : ""}>{nav.title}</a>
                 </li>
               ))}
             </ul>
